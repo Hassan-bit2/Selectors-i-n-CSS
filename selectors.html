@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS Selectors</title>
+	<style>
+		.selector{
+			color: floralwhite;
+			background-color: black;
+			border: 2px solid wheat;
+			padding-left: 3px;
+		}
+		#changer{
+			color: black;
+			background-color: grey;
+			border: 3px solid darkgray;
+			padding-left: 4px;
+			margin-right: 4px;
+			margin-left: 4px;
+		}
+		p, h2{
+			color: wheat;
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+	<p class="selector">This is a CSS Selector line</p>
+	<div>
+		<p class="selector">This is another CSS Selector line for demonstration!</p>
+	</div>
+	<div class="selector">
+		<p id="changer">This is an ordinary line!</p>
+	</div>
+	<div>
+		<h2>Grouping Selector</h2>
+		<p>Using grouping selector in this line!</p>
+	</div>
+</body>
+</html>
